@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+  <string name="re_prembudget">Premium Budget</string>
+  <string name="re_incomefor">Income needed for</string>
+  <string name="mmiconsize">86dp</string>
+  <string name="CompMode">Compounding Mode</string>
+  <string name="ic_premium">Monthly Premium</string>
+  <string name="pensionNeededToady">Annual Pension needed if you retire today</string>
+  <string name="taxIncome">Annual Tax on Income</string>
+  <string name="nacChild">Amount needed as Today</string>
+  <string name="nac_quick_hlv_Exsinsurance">Existing Insurance</string>
+  <string name="reqAge">Requirement Age</string>
+  <string name="nac_sec_child_amtneed">Amount needed</string>
+  <string name="nac_sec_child_interestrate">Saving Interest Rate</string>
+  <string name="existingLifeCover">Existing Life Cover</string>
+  <string name="noOfMonthlyPens">No of Monthly Payments</string>
+  <string name="re_main_screen_SolnBasis">Soln Basis</string>
+  <string name="DialogYes">Yes</string>
+  <string name="DialogNo">No</string>
+  <string name="atm_input_form_fingoallabel">Financial Goals to be accomplished</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+  <string name="re_prembudget">Premium</string>
+  <string name="re_incomefor">Income for</string>
+
+  <string name="mmiconsize">68dp</string>
+  <string name="mmbottommargin">20dp</string>
+  <string name="CurrentSavingBalance">Saving Balance</string>
+
+  <string name="sna_main_title">Savings Needed</string>
+  <string name="CompMode">Compounding</string>
+  <string name="menu_rd_retuns">Recurring Deposit</string>
+  <string name="InvestedAmt">Investment</string>
+  <string name="InvestmentPeriod">Investment (yrs)</string>
+  <string name="ic_premium">Premium</string>
+  <string name="pensionNeededToady">Pension reqd (if retired today)</string>
+  <string name="taxIncome">Tax on Income</string>
+  <string name="expectedGrowth">Expected Growth</string>
+  <string name="nac_quick_hlv_Exsinsurance">Existing Insu.</string>
+  <string name="reqAge">Requ. Age</string>
+  <string name="nac_sec_child_amtneed">Amt needed</string>
+  <string name="nac_sec_child_interestrate">Interest Rate</string>
+  <string name="existingLifeCover">Existing Cover</string>
+  <string name="noOfMonthlyPens">Monthly Payments</string>
+  <string name="re_main_screen_SolnBasis">Soln Basis</string>
+  <string name="atm_input_form_fingoallabel">Financial Goals</string>
+
+</resources>

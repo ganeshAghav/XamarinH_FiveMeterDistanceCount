@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <dimen name="mmiconsize">68dp</dimen>
+  <dimen name="mmbottommargin">20dp</dimen>
+</resources>

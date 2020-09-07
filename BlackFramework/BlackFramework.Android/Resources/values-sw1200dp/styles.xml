@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--values-sw1200  -->
+<resources>
+<!--
+  <style name="ThemeActionBar" >
+    <item name="android:actionBarSize">65dp</item>
+    --><!--<item name="android:popupMenuStyle">@style/PopupMenu</item>--><!--
+  </style>
+  
+  <style name="Theme.Splash" parent="android:Theme">
+    --><!--<item name="android:windowIsTranslucent">false</item>--><!--
+    <item name="android:windowBackground">@drawable/splash</item>
+
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:backgroundDimEnabled">false</item>
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">fill_parent</item>
+    <item name="android:layout_gravity">center_horizontal</item>
+  </style>
+
+  --><!-- device nexus 7--><!--
+
+  --><!-- New Styles defined by Amol Jain for 600dp device --><!--
+  --><!-- cpmmon  --><!--
+  <style name="title">
+    <item name="android:textSize">35dp</item>
+    <item name="android:textColor">#e31e24</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:gravity">center</item>
+  </style>
+
+
+  <style name="txthindi">
+    <item name="android:textSize">22dp</item>
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:gravity">center</item>
+    <item name="android:background">#1272A9</item>
+    <item name="android:layout_marginLeft">15dp</item>
+  </style>
+
+
+  <style name="checkboxstyle">
+    <item name="android:background">#ffffff</item>
+  </style>
+  
+  
+  <style name="button">
+    <item name="android:textSize">28sp</item>
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:background">@drawable/buttonbg</item>
+  </style> 
+
+  <style name="buttonagree">
+    <item name="android:textSize">28sp</item>
+    <item name="android:textColor">#e31e24</item>
+    <item name="android:textStyle">bold</item>
+
+  </style>
+
+  --><!-- end cpmmon  --><!--
+
+
+  --><!-- Login  --><!--
+  <style name="backg">
+    <item name="android:paddingBottom">15dp</item>
+    <item name="android:paddingRight">15dp</item>
+    <item name="android:paddingLeft">15dp</item>
+  </style>
+
+
+  <style name="desc">
+    <item name="android:textSize">32dp</item>
+    <item name="android:textColor">#005d9b</item>
+    <item name="android:gravity">center</item>
+  </style>
+
+  <style name="descbelow">
+    <item name="android:textSize">28dp</item>
+    <item name="android:textColor">#3e3d3d</item>
+    <item name="android:gravity">center</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+  <style name="midbox">
+
+    <item name="android:layout_marginLeft">20dp</item>
+    <item name="android:layout_marginRight">20dp</item>
+  </style>
+
+  <style name="fogotpsw">
+    <item name="android:textSize">30dp</item>
+    <item name="android:textColor">#e31e24</item>
+    <item name="android:gravity">center</item>
+  </style>
+
+
+  <style name="credintial">
+    <item name="android:textSize">30dp</item>
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:layout_marginLeft">13dp</item>
+    <item name="android:layout_marginRight">13dp</item>
+  </style>
+  --><!-- End Login  --><!--
+
+
+  --><!--  Policy Search  --><!--
+
+  <style name="pstext">
+    <item name="android:textSize">30sp</item>
+    <item name="android:textColor">#005d9b</item>
+    <item name="android:paddingLeft">10dp</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+  <style name="pstextedit">
+    <item name="android:textSize">30sp</item>
+    <item name="android:textColor">#000000</item>
+    <item name="android:layout_marginLeft">22dp</item>
+    <item name="android:layout_marginRight">28dp</item>
+  </style>
+  <style name="pstextdate">
+    <item name="android:textSize">30sp</item>
+    <item name="android:textColor">#000000</item>
+    <item name="android:layout_marginLeft">22dp</item>
+
+  </style>
+  --><!-- End Policy Search  --><!--
+
+  --><!-- LanguageConfirmation  --><!--
+  <style name="checkbx">
+    <item name="android:layout_marginRight">15dp</item>
+    <item name="android:layout_marginLeft">15dp</item>
+  </style>
+  <style name="content1">
+    <item name="android:textSize">24dp</item>
+    <item name="android:textColor">#3e3d3d</item>
+    <item name="android:layout_marginRight">15dp</item>
+    <item name="android:layout_marginLeft">15dp</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="content2">
+    <item name="android:textSize">24dp</item>
+    <item name="android:textColor">#005d9b</item>
+    <item name="android:layout_marginRight">15dp</item>
+    <item name="android:layout_marginLeft">15dp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:gravity">center</item>
+  </style>
+
+  <style name="content3">
+    <item name="android:textSize">24sp</item>
+    <item name="android:textColor">#e31e24</item>
+
+    <item name="android:textStyle">bold</item>
+    <item name="android:gravity">center</item>
+  </style>
+  <style name="contentcheck">
+    <item name="android:textSize">28dp</item>
+    <item name="android:textColor">#ffffff</item>
+
+  </style>
+  <style name="content5">
+    <item name="android:textSize">26dp</item>
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:background">#ff0000</item>
+  </style>
+  --><!--End  LanguageConfirmation  --><!--
+
+  --><!--  Policy Detail  --><!--
+
+
+  <style name="pdtxtabove">
+    <item name="android:textSize">27dp</item>
+    <item name="android:textColor">#005d9b</item>
+    <item name="android:gravity">center</item>
+  </style>
+  <style name="pdtxtbelow">
+    <item name="android:textSize">27dp</item>
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:gravity">center</item>
+  </style>
+
+  <style name="pdmost">
+    <item name="android:textSize">30dp</item>
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:gravity">center</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="pdtabletext">
+    <item name="android:textSize">24dp</item>
+    <item name="android:textColor">#3e3d3d</item>
+    <item name="android:layout_marginLeft">10dp</item>
+  </style>
+
+
+  --><!-- End Policy Detail  --><!--
+
+
+  --><!-- AgentCaptured  --><!--
+  <style name="acAgenttitle">
+    <item name="android:textSize">26dp</item>
+    <item name="android:textColor">#3e3d3d</item>
+    <item name="android:layout_marginLeft">30dp</item>
+  </style>
+
+  <style name="acAgentdetail">
+    <item name="android:textSize">26dp</item>
+    <item name="android:textColor">#005d9b</item>
+    <item name="android:layout_marginLeft">30dp</item>
+  </style>
+
+  <style name="acAgentdevide">
+    <item name="android:background">#005d9b</item>
+    <item name="android:layout_marginLeft">30dp</item>
+    <item name="android:layout_marginRight">15dp</item>
+  </style>
+
+
+  <style name="actimehead">
+    <item name="android:textColor">#005d9b</item>
+    <item name="android:textSize">26dp</item>
+  </style>
+
+  <style name="actime">
+    <item name="android:textColor">#e31e24</item>
+    <item name="android:textSize">30dp</item>
+  </style>
+
+  --><!-- End AgentCaptured  --><!--
+
+  --><!-- Thankyou  --><!--
+  <style name="tydetail1">
+    <item name="android:textSize">32dp</item>
+    <item name="android:textColor">#000000</item>
+    <item name="android:layout_marginLeft">15dp</item>
+  </style>
+  <style name="tydetail2">
+    <item name="android:textSize">32dp</item>
+    <item name="android:textColor">#e31e24</item>
+
+  </style>
+  <style name="tykindly">
+    <item name="android:textSize">30dp</item>
+    <item name="android:textColor">#3e3d3d</item>
+    <item name="android:layout_marginLeft">15dp</item>
+  </style>
+
+  <style name="tythanks">
+    <item name="android:layout_marginLeft">15dp</item>
+    <item name="android:layout_marginRight">15dp</item>
+
+  </style>
+
+  <style name="tycontinue">
+    <item name="android:textSize">16sp</item>
+    <item name="android:textColor">#005d9b</item>
+  </style>
+  <style name="tysec">
+    <item name="android:textSize">18sp</item>
+    <item name="android:textColor">#e31e24</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+  --><!-- End Thankyou  -->
+
+</resources>

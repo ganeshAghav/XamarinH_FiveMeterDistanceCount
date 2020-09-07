@@ -1,0 +1,93 @@
+﻿@inherits PortableRazor.ViewBase
+@using PortableRazor
+@*@model LoginModel*@
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <title>Black Framework</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <script src="jquery-1.11.3.min.js"></script>
+      
+    <script type="text/javascript">
+
+        $(document).ready(function ()
+        {
+            var os = navigator.platform
+
+            if (os == "iPad")
+            {
+                $('head').append('<link rel="stylesheet" href="css/styleIOS.css" type="text/css" />');
+
+            }
+            else
+            {
+                $('head').append('<link rel="stylesheet" href="css/style.css" type="text/css" />');
+            }
+        });
+
+        function UserLogin() {
+
+            var password = document.getElementById('txtPassword').value;
+            var user = document.getElementById('txtuser').value;
+
+            @*if (user != "" && password != "") {
+
+                location.href = '@Url.Action("btnLogin_Click", "LoginViewController")?txtUserName=' + user + '&txtPassword=' + password;
+            }*@
+        }
+    </script>
+
+
+    </head>
+
+    <body>
+        <img src="~/content/images/logo.png" />
+        <div class="width100">
+            <div class="width100">
+                <img src="Images/top-banner.png" class="img-responsiv">
+            </div>
+
+        </div>
+
+        <div class="width100 top30 textCenter">
+            <p class="welcomeHd bottomPad5">Welcome </p>
+        </div>
+
+        <div class="width100 top40">
+            <input type="text" class="inputLogin" id="txtuser" name="" placeholder="Sales Diary User ID">
+        </div>
+
+        <div class="width100 top20">
+            <input type="password" class="inputLogin" id="txtPassword" name="" placeholder="Password">
+        </div>
+
+        <div class="width90 forgot-pas">
+            forgot password?
+        </div>
+
+        <div class="width100 top30">
+            <input class="loginBt" type="button" value="Login" onclick="UserLogin()" />
+
+            <p class="width80 textCenter margincenter top10"> 
+                By logging to this application you agree all the terms and conditions
+            </p>
+        </div>
+
+        <div class="width40 margincenter textCenter">
+            <img src="Images/logo.png" class="top20"/>
+        </div>
+
+        <p class="width90 authorizTxt top10">
+            This application is intended for Tata AIA Life employees and authorized partners only<br />
+            <b>PROD 1.1.29</b>
+        </p>
+
+    </body>
+
+</html>
